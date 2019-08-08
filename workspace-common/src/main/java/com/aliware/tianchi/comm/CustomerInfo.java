@@ -20,7 +20,7 @@ public class CustomerInfo {
 
     public CustomerInfo(String env, int providerThread) {
         this.env = env;
-        this.providerAllThreads = (int) (providerThread * 0.95);
+        this.providerAllThreads = (int) (providerThread * 0.895);
         if ("large".equals(env)) {
             this.serverWeight = 15;
         } else if ("medium".equals(env)) {
